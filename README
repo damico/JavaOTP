@@ -1,0 +1,18 @@
+JavaOTP is a basic and an Open Source implementation of TOTP algorithm RFC6238
+In order to use this project you will need Eclipse and JUnit
+
+Dependencies
+
+Java SE 1.6 or greater
+
+License
+
+Eclipse Public License 1.0 (EPL 1.0)
+
+Authors
+
+Jose Damico
+
+Contact
+
+Jose Ricardo de Oliveira Damico (jd.comment@gmail.com) 
