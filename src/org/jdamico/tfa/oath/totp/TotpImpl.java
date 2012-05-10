@@ -89,7 +89,7 @@ public class TotpImpl {
 		// First 8 bytes are for the movingFactor
 		// Complaint with base RFC 4226 (HOTP)
 
-		while(time.length() < 16 ) time += "0";
+		while(time.length() < 16 ) time = "0" + time;
 		byte[] msg = hexStr2Bytes(time); // Get the HEX in a byte[]
 
 		// Adding one byte to get the right conversion
@@ -103,7 +103,7 @@ public class TotpImpl {
 				(hash[offset + 3] & 0xff);
 		int otp = binary % DIGITS_POWER[codeDigits];
 		String result = Integer.toString(otp);
-		while (result.length() < codeDigits) result += "0";
+		while (result.length() < codeDigits) result = "0" + result;
 		return result;
 	}
 }
