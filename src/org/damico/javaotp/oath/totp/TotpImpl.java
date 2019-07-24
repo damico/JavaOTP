@@ -1,4 +1,4 @@
-package org.jdamico.tfa.oath.totp;
+package org.damico.javaotp.oath.totp;
 
 
 import java.lang.reflect.UndeclaredThrowableException;

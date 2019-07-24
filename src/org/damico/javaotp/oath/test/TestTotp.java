@@ -1,4 +1,4 @@
-package org.jdamico.tfa.oath.test;
+package org.damico.javaotp.oath.test;
 
 import java.lang.reflect.UndeclaredThrowableException;
 import java.security.InvalidKeyException;
@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.jdamico.tfa.oath.totp.TotpImpl;
+import org.damico.javaotp.oath.totp.TotpImpl;
 import org.junit.Before;
 import org.junit.Test;
 
